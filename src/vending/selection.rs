@@ -2,7 +2,7 @@ use super::drink_option::{DrinkOption, Drink};
 use color_eyre::eyre::{Result};
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
-use tokio::{fs::{self, File}, io::AsyncReadExt};
+use tokio::{fs::File, io::AsyncReadExt};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct DrinkArray {
