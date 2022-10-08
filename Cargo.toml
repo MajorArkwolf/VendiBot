@@ -3,12 +3,16 @@ name = "VendiBot"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-rppal = "0.13"
-tokio = "1.21"
+tokio = { version = "1", features = ["full"] }
 tokio-util = { version ="0.7", features=["codec"] }
-serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 color-eyre = "0.6"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features=["env-filter"] }
+bit_field = "0.10"
+bitvec = "1"
+
+[target.armv7-unknown-linux-gnueabihf.dependencies]
+rppal = "0.13"
