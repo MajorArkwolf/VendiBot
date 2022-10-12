@@ -1,5 +1,5 @@
 {
-    "drink": [
+    "drinks": [
         {"id": 0, "name": "Pepsi", "cost": "1.50"},
         {"id": 1, "name": "Pepsi Max", "cost": "1.50"},
         {"id": 2, "name": "Coke", "cost": "1.50"},
@@ -8,7 +8,7 @@
         {"id": 5, "name": "Mountain Dew", "cost": "1.50"},
         {"id": 6, "name": "Kirks Lemonaid", "cost": "1.50"}
     ],
-    "drink_option": [
+    "drink_options": [
         {"drink_id": 0, "input_pin": 1, "output_pin": 8, "is_valid": true},
         {"drink_id": 1, "input_pin": 2, "output_pin": 9, "is_valid": true},
         {"drink_id": 2, "input_pin": 3, "output_pin": 10, "is_valid": true},
