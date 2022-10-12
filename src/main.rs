@@ -1,5 +1,6 @@
 mod io;
 mod vending;
+mod artifactory;
 use color_eyre::eyre::{Result};
 use io::backend::IElectronicController;
 

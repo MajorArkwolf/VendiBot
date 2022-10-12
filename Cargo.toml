@@ -13,6 +13,8 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features=["env-filter"] }
 bit_field = "0.10"
 bitvec = "1"
+serde_with = "2.0.1"
+byteorder = "1.4.3"
 
 [target.armv7-unknown-linux-gnueabihf.dependencies]
 rppal = "0.13"
